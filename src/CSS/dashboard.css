@@ -1,4 +1,4 @@
 .aws {
-  position: absolute;
-  bottom: 100%;
+  position: relative;
+  left: 13%;
 }

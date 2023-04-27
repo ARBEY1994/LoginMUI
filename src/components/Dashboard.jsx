@@ -19,6 +19,7 @@ import Title from "./Title";
 import { getData, selectIsAuthenticated } from "../Redux/loginSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { Hidden } from "@material-ui/core";
+import "../CSS/dashboard.css";
 
 const drawerWidth = 240;
 
@@ -162,8 +163,8 @@ function DashboardContent() {
                 ? theme.palette.grey[100]
                 : theme.palette.grey[900],
             flexGrow: 1,
-            height: "100vh",
-            overflow: "auto",
+            height: "93vh",
+            overflow: "hidden",
           }}
         >
           <Toolbar />
@@ -171,8 +172,8 @@ function DashboardContent() {
             className="aws"
             src="https://uploads-ssl.webflow.com/619811f15cf1e46af063c233/620dc6482e585bbdb5feff64_aws-logo.png"
             alt=""
-            height="60%"
-            width="100%"
+            height="70%"
+            width="70%"
           />
           <Chart />
         </Box>

@@ -131,7 +131,7 @@ function SwipeableEdgeDrawer(props) {
                 </div>
               );
             })}
-          <Skeleton variant="rectangular" height="40%" />
+          <Skeleton variant="rectangular" height="20%" />
         </StyledBox>
       </SwipeableDrawer>
     </Root>
