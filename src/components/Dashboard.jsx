@@ -123,7 +123,7 @@ function DashboardContent() {
                 Dashboard
               </Typography>
               <IconButton color="inherit">
-                <Badge badgeContent={4} color="secondary">
+                <Badge badgeContent={1} color="secondary">
                   <NotificationsIcon />
                 </Badge>
               </IconButton>
@@ -153,6 +153,7 @@ function DashboardContent() {
             </List>
           </Drawer>
         </Hidden>
+
         <Box
           component="main"
           sx={{
@@ -166,6 +167,13 @@ function DashboardContent() {
           }}
         >
           <Toolbar />
+          <img
+            className="aws"
+            src="https://uploads-ssl.webflow.com/619811f15cf1e46af063c233/620dc6482e585bbdb5feff64_aws-logo.png"
+            alt=""
+            height="60%"
+            width="100%"
+          />
           <Chart />
         </Box>
       </Box>

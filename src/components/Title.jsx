@@ -14,7 +14,7 @@ function Title(props) {
   return (
     <Typography component="h2" variant="h6" color="primary" gutterBottom>
       {props.children}
-      <Button onClick={handleLogout} variant="outlined">
+      <Button onClick={handleLogout} variant="contained" size="small">
         {" "}
         Cerrar sesión
       </Button>
